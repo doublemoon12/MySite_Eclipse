@@ -1,0 +1,185 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+ul{
+    list-style:none;
+    }
+
+@media(min-width: 992px){
+    .card-title{
+        font-size: 25px;
+    }
+    .card-text{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 992px){
+    .card-title{
+        font-size: 35px;
+    }
+    .card-text{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 920px){
+    .menu {
+        display: none;
+    }
+}
+
+@media (min-width: 920px){
+    .menuicon {
+        display: none;
+    }
+}
+
+@media()
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.menuicon{
+    float: right;
+    padding: 15px;
+}
+
+.top{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    height: 120px;
+}
+
+.logo{
+    float: left;
+    width: 400px;
+    height: 120px;
+}
+
+.logo>a>img{
+    width: 400px;
+    object-fit: cover;
+}
+
+.menu{
+    margin-right: 40px;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+}
+
+.menu>ul>li{
+    text-align: right;
+    padding: 45px 10px 0px 20px;
+    float: right;
+}
+
+.menu>ul>li>a{
+    color: black;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.menu>ul>li>a:hover{
+    color: #f0536a;
+}
+
+.card:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.productmid{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.img{
+    background-image: url(/image/urbanbrush-20211005174858926902.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transition-duration: 8s;
+    background-position: 50%
+}
+
+.img:hover{
+    transform: scale(1.2);
+}
+
+.productmid>h1{
+    color: aliceblue;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    text-align: left;
+    z-index: 30;
+}
+
+footer{
+    width: auto;
+    height: 70px;
+}
+
+.footnote{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footernote{
+    height: 180px;
+    color: aliceblue;
+    background-color: darkgray;
+}
+
+.note1{
+    float: left;
+    padding: 40px;
+}
+
+.note2{
+    padding: 40px;
+}
+
+@media (max-width: 768px){
+    .note2{
+        display: none;
+    }
+}
